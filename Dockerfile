@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -U pip wheel && \
 
 COPY . .
 
-CMD ["python3", "-m", "Music"]
+CMD python3 -m Music
